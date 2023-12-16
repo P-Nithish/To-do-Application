@@ -1,0 +1,30 @@
+body {
+	background: rgba(235, 156, 10, 0.8);
+	font-family: 'Oswald', 'Futura', sans-serif;
+}
+#wrapper {
+	margin-top: 5% !important;
+}
+#content {
+	background: rgba(11, 131, 37, 0.952);
+	padding: 25px;
+}
+#content > h2 {
+	font-size: 20px;
+	text-align: center;
+}
+.t10 {
+	margin-top: 20px;
+}
+.t20 {
+	margin-top: 40px;
+}
+.todo-completed {
+	text-decoration: line-through;
+	text-decoration-thickness: 4px;
+	text-decoration-color: red;
+}
+footer {
+	margin-top: 20px;
+	color: white;
+}
