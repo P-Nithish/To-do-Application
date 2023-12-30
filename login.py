@@ -6,7 +6,7 @@ import bcrypt
 app = Flask(__name__)
 
 app.config['MONGO_DBNAME'] = 'To-Do-App'
-app.config['MONGO_URI'] = 'mongodb+srv://Nithish:nit5335@cluster0.lzn3c.mongodb.net/To-Do-App'
+app.config['MONGO_URI'] = 'mongodb+srv://<username>:<password>@cluster0.lzn3c.mongodb.net/To-Do-App'
 
 mongo = PyMongo(app)
 users = mongo.db.users
